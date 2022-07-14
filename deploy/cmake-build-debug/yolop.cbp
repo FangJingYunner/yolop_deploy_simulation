@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="yolop"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myplugins">
+				<Option output="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/libmyplugins.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/opt/TensorRT-8.2.4.2/include"/>
+					<Add directory="/usr/local/cuda-11.4/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 myplugins"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myplugins/fast">
+				<Option output="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/libmyplugins.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/opt/TensorRT-8.2.4.2/include"/>
+					<Add directory="/usr/local/cuda-11.4/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 myplugins/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolop">
+				<Option output="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/yolop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/opt/TensorRT-8.2.4.2/include"/>
+					<Add directory="/usr/local/cuda-11.4/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 yolop"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolop/fast">
+				<Option output="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/yolop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/opt/TensorRT-8.2.4.2/include"/>
+					<Add directory="/usr/local/cuda-11.4/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 yolop/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_simulation">
+				<Option output="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/main_simulation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/opt/TensorRT-8.2.4.2/include"/>
+					<Add directory="/usr/local/cuda-11.4/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_simulation"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_simulation/fast">
+				<Option output="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/main_simulation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/opt/TensorRT-8.2.4.2/include"/>
+					<Add directory="/usr/local/cuda-11.4/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_simulation/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/cmake-build-debug/CMakeFiles/myplugins.dir/myplugins_generated_yololayer.cu.o">
+			<Option target="myplugins"/>
+		</Unit>
+		<Unit filename="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/main.cpp">
+			<Option target="yolop"/>
+		</Unit>
+		<Unit filename="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/main_simulation.cpp">
+			<Option target="main_simulation"/>
+		</Unit>
+		<Unit filename="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/yololayer.cu">
+			<Option target="myplugins"/>
+		</Unit>
+		<Unit filename="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/../../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/../../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/../../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/../../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

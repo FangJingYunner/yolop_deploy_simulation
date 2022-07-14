@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o   -L/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/build/gtest/googlemock/gtest/src  -Wl,-rpath,/home/fjy/Desktop/py_ws/YOLOP/toolkits/deploy/build/gtest/googlemock/gtest/src -lpthread 
